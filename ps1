@@ -28,9 +28,9 @@
         function loginUser() {
 
             let user = document.getElementById("username").value;
-            let pass = document.getElementById("passwrod").value;  // ERROR 1: typo "passwrod"
+            let pass = document.getElementById("passwrod").value;  
 
-            if (user = "admin" && pass === "1234") {   // ERROR 2: assignment "=" instead of comparison "==="
+            if (user = "admin" && pass === "1234") {   // e
                 document.getElementById("message").innerText = "Login successful";
             } else {
                 document.getElementById("message").innerText = "Login failed";
